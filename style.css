@@ -1,0 +1,40 @@
+html{
+   
+  
+    -webkit-animation: color 5s ease-in-out infinite;
+    -moz-animation: color 5s ease-in-out infinite;
+    -o-animation: color 5s ease-in-out infinite;
+    animation: color 5s ease-in-out infinite;
+    font-weight: bold;
+    color: white;
+    width: 800px;
+    height: 80px;
+    
+}
+.color-wave {
+    -webkit-animation: color 5s ease-in-out infinite;
+    -moz-animation: color 5s ease-in-out infinite;
+    -o-animation: color 5s ease-in-out infinite;
+    animation: color 5s ease-in-out infinite;
+    font-weight: bold;
+    color: white;
+    width: 800px;
+    height: 100px;
+    }
+    @keyframes color {
+    0%{background-color: #90c7dd;}
+   
+    50%{background-color: #a59ee4;}
+    
+    100%{background-color: #cda2f0;}
+    }
+    
+      .child:hover {
+        transform: scale(2.2)
+      }
+      .scale {
+        transition: 1s; 
+       }
+       .scale:hover {
+        transform: scale(1.2); 
+       }
